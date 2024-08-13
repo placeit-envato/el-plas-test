@@ -1,0 +1,127 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "saZG5UFzSFK9GHv1WC5GrQ",
+      "projectApiToken": "7GUIR2mnXDTiFQMUnsO4dV3fyb9WgXTolDE1ykOTZ2lg0zMIww7oTJxdcV370cojUwowvgsj8tVN9SJroHNCQ",
+      "projectName": "elements-cs-test1",
+      "version": "latest",
+      "cssFilePath": "plasmic/elements_cs_test_1/plasmic.module.css",
+      "components": [
+        {
+          "id": "Y7aknKW8mtSD",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "saZG5UFzSFK9GHv1WC5GrQ",
+          "renderModuleFilePath": "plasmic/elements_cs_test_1/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/elements_cs_test_1/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "5tZJBPBuhZhT",
+          "name": "TestArenaComponent",
+          "type": "managed",
+          "projectId": "saZG5UFzSFK9GHv1WC5GrQ",
+          "renderModuleFilePath": "plasmic/elements_cs_test_1/PlasmicTestArenaComponent.tsx",
+          "importSpec": {
+            "modulePath": "TestArenaComponent.tsx"
+          },
+          "cssFilePath": "plasmic/elements_cs_test_1/PlasmicTestArenaComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gR2GHBg2tIV4",
+          "name": "TestComponent",
+          "type": "managed",
+          "projectId": "saZG5UFzSFK9GHv1WC5GrQ",
+          "renderModuleFilePath": "plasmic/elements_cs_test_1/PlasmicTestComponent.tsx",
+          "importSpec": {
+            "modulePath": "TestComponent.tsx"
+          },
+          "cssFilePath": "plasmic/elements_cs_test_1/PlasmicTestComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "FgdJQ-O33OIy",
+          "name": "TestPage",
+          "type": "managed",
+          "projectId": "saZG5UFzSFK9GHv1WC5GrQ",
+          "renderModuleFilePath": "plasmic/elements_cs_test_1/PlasmicTestPage.tsx",
+          "importSpec": {
+            "modulePath": "TestPage.tsx"
+          },
+          "cssFilePath": "plasmic/elements_cs_test_1/PlasmicTestPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/test-page"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "GSANRzoxc7d5",
+          "name": "place.png",
+          "filePath": "plasmic/elements_cs_test_1/images/placepng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "zTTwQaxi6PoN",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "wwRQXUdsXcMQ",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "6Cdxcflad-ah",
+        "name": "Screen",
+        "projectId": "saZG5UFzSFK9GHv1WC5GrQ",
+        "contextFilePath": "plasmic/elements_cs_test_1/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
+}
